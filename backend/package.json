@@ -37,7 +37,7 @@
     "typescript": "^5.0.4"
   },
   "lint-staged": {
-    "backend/src/**/*.{ts,js}": [
+    "**/*.{ts,js}": [
       "prettier --write",
       "npx eslint --fix --ext .ts ."
     ]
